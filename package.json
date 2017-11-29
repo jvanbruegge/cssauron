@@ -1,6 +1,6 @@
 {
   "name": "cssauron2",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "create matching selectors from css for your very own nested object hierarchy",
   "main": "lib/index.js",
   "module": "src/index.js",
@@ -10,7 +10,8 @@
   },
   "scripts": {
     "test": "npm run build && node test/index.js",
-    "build": "babel src -d lib"
+    "build": "babel src -d lib",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
