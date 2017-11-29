@@ -1,4 +1,4 @@
-var through = require('through');
+import through from 'through';
 
 var PSEUDOSTART = 'pseudo-start'
   , ATTR_START = 'attr-start'
